@@ -1,0 +1,17 @@
+.product img{
+    width: 200px;
+}
+.product{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:whitesmoke;
+}
+.btn{
+    width: 40%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px 2px;
+    border: 10px;
+    font-size: 15px;
+    box-shadow: 100px;
+}
