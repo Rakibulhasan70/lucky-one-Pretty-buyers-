@@ -15,6 +15,7 @@ const Shop = () => {
         const newCart = [...cart, product]
         setCart(newCart)
     }
+    const clearData = () => setCart([])
     return (
         <div className='shop-container'>
             <div className="product-container">
@@ -31,6 +32,11 @@ const Shop = () => {
                     cart.map(item => <li>{item.name}
                         <img width={'100px'} src={item.picture} alt="" /></li>
                     )}
+                <br />
+                <button className='selected-iteam'>Selected Item</button>
+                <br />
+                <br />
+                <button onClick={clearData} className='choose-again'>Choose Again</button>
             </div>
         </div>
     );

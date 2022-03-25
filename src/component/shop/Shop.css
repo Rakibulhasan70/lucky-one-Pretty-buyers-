@@ -12,7 +12,25 @@
     background-color: lightgray;
     border-radius: 15px;
 }
+.selected-iteam{
+    padding: 10px 4px;
+    color: green;
+    font-weight: 500;
+    background-color:cornsilk;
+    border-radius: 5px;
+    box-shadow: 20px;
+    border: 0;
+}
 
+.choose-again{
+    padding: 10px 4px;
+    color: purple;
+    font-weight: 500;
+    /* background-color:; */
+    border-radius: 5px;
+    box-shadow: 20px;
+    border: 0;
+}
 @media screen and (max-width:576px){
     .product-container{
         grid-template-columns: repeat(1,1fr);

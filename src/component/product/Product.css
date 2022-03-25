@@ -10,8 +10,11 @@
     width: 40%;
     border-radius: 10px;
     margin-bottom: 5px;
-    padding: 10px 2px;
+    padding: 12px 2px;
     border: 10px;
     font-size: 15px;
     box-shadow: 100px;
+}
+.btn:hover{
+    background-color: orange;
 }
