@@ -28,8 +28,9 @@ const Shop = () => {
             <div className="cart-container">
                 <p>selected items</p>
                 {
-                    cart.map((item) => (<h5><li>{item.name}</li></h5>))
-                }
+                    cart.map(item => <li>{item.name}
+                        <img width={'100px'} src={item.picture} alt="" /></li>
+                    )}
             </div>
         </div>
     );
