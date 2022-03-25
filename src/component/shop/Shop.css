@@ -12,3 +12,10 @@
     background-color: lightgray;
     border-radius: 15px;
 }
+
+@media screen and (max-width:576px){
+    .product-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
