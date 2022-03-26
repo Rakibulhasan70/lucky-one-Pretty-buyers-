@@ -13,7 +13,7 @@ const Product = (props) => {
         <div className='product'>
             <img src={picture} alt="" />
             <div className="product-info">
-                <h3>name: {name}</h3>
+                <h3>Name: {name}</h3>
                 <p>Price:${price}</p>
 
                 <button onClick={() => props.handleCart(props.product)} className='btn' >Add To Card  <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>

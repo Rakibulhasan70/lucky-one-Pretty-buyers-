@@ -20,7 +20,7 @@ const Shop = () => {
     // choose data arrow function
     const selectedData = () => {
         const randomNumber = cart[Math.floor(Math.random() * cart.length)]
-        alert('Product Name :' + randomNumber.name)
+        alert('Product Name:  ' + randomNumber.name + '  ' + 'OK! ARE YOU USE IT??')
     }
 
     return (
@@ -34,9 +34,9 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <p>selected items</p>
+                <h3>selected Items</h3>
                 {
-                    cart.map(item => <li key={item.id}>{item.name}
+                    cart.map(item => <li className='cart-container-info' key={item.id}>{item.name}
                         <img className='image-container' src={item.picture} alt="" /></li>
 
                     )}
