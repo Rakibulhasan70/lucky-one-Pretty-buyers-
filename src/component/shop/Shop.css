@@ -14,11 +14,10 @@
     background-color: lightgray;
     border-radius: 15px;
 }
-.cart-container-info{
-    padding-left: 20px;
-}
+
 .image-container{
     padding-right: 20px;
+    width: 50px;
 }
 .selected-iteam{
     padding: 10px 4px;
@@ -38,9 +37,6 @@
     border-radius: 5px;
     box-shadow: 20px;
     border: 0;
-}
-.image-container{
-    width: 100px;
 }
 @media screen and (max-width:576px){
     .product-container{

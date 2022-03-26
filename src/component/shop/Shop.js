@@ -20,7 +20,7 @@ const Shop = () => {
     // choose data arrow function
     const selectedData = () => {
         const randomNumber = cart[Math.floor(Math.random() * cart.length)]
-        alert('Product Name:  ' + randomNumber.name + '  ' + 'OK! ARE YOU USE IT??')
+        alert('Product Name:  ' + randomNumber.name + '  ' + 'DO YOU WANT IT?')
     }
 
     return (

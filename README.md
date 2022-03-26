@@ -2,6 +2,11 @@
 
 Pretty Buyers
 
+## Netlify Deplo Link
+
+Go to the Link and enjoy my project.\
+Open [https://pretty-users.netlify.app/](https://pretty-users.netlify.app/) to view it in your browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
