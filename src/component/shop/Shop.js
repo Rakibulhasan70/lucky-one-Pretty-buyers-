@@ -11,16 +11,18 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
     const handleCart = (product) => {
-        console.log('clicked');
         const newCart = [...cart, product]
         setCart(newCart)
     }
+    // clear data function
     const clearData = () => setCart([])
 
+    // choose data arrow function
     const selectedData = () => {
-        const selectItem = Math.floor(Math.random() * cart.length)
-        setCart(selectItem)
+        const randomNumber = cart[Math.floor(Math.random() * cart.length)]
+        alert('Product Name :' + randomNumber.name)
     }
+
     return (
         <div className='shop-container'>
             <div className="product-container">
@@ -34,11 +36,12 @@ const Shop = () => {
             <div className="cart-container">
                 <p>selected items</p>
                 {
-                    cart.map(item => <li>{item.name}
+                    cart.map(item => <li key={item.id}>{item.name}
                         <img className='image-container' src={item.picture} alt="" /></li>
+
                     )}
                 <br />
-                <button onClick={selectedData} className='selected-iteam'>Selected Item</button>
+                <button onClick={selectedData} className='selected-iteam'>Choose 1 For Me</button>
                 <br />
                 <br />
                 <button onClick={clearData} className='choose-again'>Choose Again</button>

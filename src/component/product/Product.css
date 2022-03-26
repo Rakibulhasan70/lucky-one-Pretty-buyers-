@@ -2,18 +2,20 @@
     width: 200px;
 }
 .product{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 29px 29px 55px #a8a8a8, -20px -20px 55px #fff;
     border-radius: 20px;
     background-color:whitesmoke;
 }
 .btn{
-    width: 40%;
+    width: 43%;
     border-radius: 10px;
     margin-bottom: 5px;
     padding: 12px 2px;
     border: 10px;
     font-size: 15px;
-    box-shadow: 100px;
+    box-shadow: 29px 29px 55px #a8a8a8, -29px -29px 55px #fff;
+    border: 1px solid black;
 }
 .btn:hover{
     background-color: orange;
